@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('bg.jpeg');
+    background-size: contain;
+    text-align: center;
+    padding: 100px 50px;
+    color: #fff;
+}
+
+#hero h1 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8d9523;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#featured-animals {
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    background-color: rgb(26, 71, 4);
+    justify-content: center;
+}
+
+.animal {
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #6d6c6c;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    background-color: white;
+
+}
+
+.animal img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.animal h3 {
+    margin-top: 10px;
+}
+
+.animal:hover {
+
+    transform: scale(1.15);
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
